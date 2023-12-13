@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Olivia</a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1><p style="color: yellowgreen; font-size: 20px;">Student</p></h1>
+        <br>
+        <p style="transform: translateX(16%)">
+            Hello, I am Olivia,
+        </p>
+        <p style="transform: translateX(42%);">A sophomore student of CSE (AIML).</p>
+        <img class="image" src="Oh Calcutta.jpg" alt="Image" height="300px">
+
+        <br>
+
+        <h2 class="contacts">Contact Me</h2>
+            </article id="contact">
+                <form action="https://httpbin.org/get" method="get" style="transform: translateX(30%);"> 
+                    <fieldset>
+                        <legend style="font-size: 20px;">Personal Info</legend>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required>
+                    </p>
+
+                    <p>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+                    </p>
+                    
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="your secret" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <button type="submit" style="color: black; font-size: 15px;">Submit</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
